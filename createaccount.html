@@ -7,8 +7,10 @@
     <link rel="stylesheet" href="createaccount.css"/>
 </head>
 <body>
-   <div>
-    <form  class="form">
+  
+   <div class="createaccount">
+   
+    <form  action="home1.html" class="form" >
       
         <label class="Signup">Sign Up</label><br>
         <h1 class="text">It's quick and easy.</h1>
@@ -30,7 +32,7 @@
       </div>
 
         <input type="date" class="date"><br/>
-     
+        
         <input type="text"
                 placeholder="First name"
                 class="Firstname">    
@@ -40,38 +42,41 @@
             placeholder="surname"
             class="surname">
         
-        <div>Gender?</div>
-            <label for="Female">Female
+        <div class="gender"> Gender?</div><br/>
+
+             <label for="Female"  class="Female">Female
             <input type="radio"
-            class="Female"
+           
             value="Female"
             name="gender"
-            id="Female"></label>           
+            id="Female"> </label>          
         
-        <label for="Male">Male
+         <label for="Male" class="Male">Male
             <input type="radio"
-            class="male"
+            
             value="male"
             name="gender"
             id="Male"></label>
 
-            <label for="Custom">Custom
-                <input type="radio"
-                class="Custom"
+            <label for="Custom" class="Custom">Custom
+                <input type="radio"               
                 value="Custom"
                 name="gender"
-                id="Custom"></label>
+                id="Custom"></label> 
             
-        <div>
+        
             <p class="para">
-                People who use our service may have uploaded your contact information to Facebook.Learn more<br/>
+                People who use our service may have uploaded your contact information to Facebook.
+                <a href="#">Learn more </a><br/><br/>
                 By clicking Sign Up,you agree to our Terms,Privacy Policy and Cookies Policy.<br>
                 You may receive SMS notification form us and opt at any time.
             </p>
-        </div>
-        <input type="button" value="Sign Up" class="Sign Up">
-
+        
+        <input type="submit" value="Sign Up" class="SignUp">
+   
     </form>
-   </div> 
+
+   </div>
+  
 </body>
 </html>

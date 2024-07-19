@@ -1,0 +1,838 @@
+*{
+    /* background-color: whitesmoke; */
+}
+
+.navbar{
+    width: 1519px;
+    height: 56px;
+    background-color: white;
+    box-shadow: 10px 10px 5px lightblue;
+    position:fixed;  
+}
+
+.facebookicon{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    margin: 8px 0 0 3px;
+}
+
+.homeiconnav{
+    position: fixed;
+    height: 25px;
+    width: 25px;
+    margin: 6px 0 0 34%;
+}
+
+
+.shopiconnav{
+    position: fixed;
+    height: 25px;
+    width: 25px;
+    margin: 6px 0 0 43.5%;
+}
+
+.usericonnav{
+    position: fixed;
+    height: 25px;
+    width: 25px;
+    margin: 6px 0 0 53%;
+}
+
+.joysticknav{
+    position: fixed;
+    height: 25px;
+    width: 25px;
+    margin: 6px 0 0 63%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.gridicon{
+    position: absolute;
+    margin: 15px 0 0 88%;
+}
+.messengericon{
+    position: absolute;
+    margin: 13px 0 0 90%;
+}
+
+.bellicon{
+    position: absolute;
+    margin: 13px 0 0 93%;
+}
+
+.profileimg{
+    width: 30px;
+    height: 30px;
+    margin: 13px 0 0 96%;
+    position: absolute;
+}
+
+
+.searchinput{
+    position: absolute;
+   margin: 10px 0 0 3.8%; 
+   padding: 10px  0px 10px 50px;
+   width: 210px;
+   border-radius: 20px;
+   border: none;
+   background-color: rgba(128, 128, 128, 0.146);
+
+}
+.homepage{
+    display: flex;
+}
+
+.tools{
+   
+    width: 360px;
+    height: 670px;
+    background-color: whitesmoke;
+    margin: 57px 0 0 0;
+    position:fixed;
+}
+
+.feed{
+    width: 800px;
+    height:3000px;
+    /* background-color: red;   */
+    position: relative;
+    margin: 57px 0 0 360px;
+    background-color: whitesmoke;
+
+}
+
+.usernametools{
+    position: absolute;
+    margin: 20px 0 0 0; 
+} 
+.profileimgtools{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin:5px 0 0 8px ;
+  
+}
+.usernametxt{
+   position: relative;
+   margin: 15px 0 0 55px;
+   color: black;
+   font-family: Okra, Helvetica, sans-serif;
+}
+
+.friendtools{
+    position: absolute;
+    margin: 40px 0 0 0; 
+} 
+.friendimgtools{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    margin:40px 0 0 8px ;
+  
+}
+.friendtxt{
+   position: relative;
+   margin: 50px 0 0 50px;
+   color: black;
+   font-family: Okra, Helvetica, sans-serif; 
+}
+
+.memoriestools{
+    position: absolute;
+    margin: 40px 0 0 0; 
+} 
+.memoriesimgtools{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    margin:90px 0 0 8px ;
+  
+}
+.memoriestxt{
+   position: relative;
+   margin: 99px 0 0 50px;
+   color: black;
+   font-family: Okra, Helvetica, sans-serif; 
+}
+
+.savedtools{
+    position: absolute;
+    margin: 40px 0 0 0; 
+} 
+.savedimgtools{
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    margin:140px 0 0 8px ;
+  
+}
+.savedtxt{
+   position: relative;
+   margin: 145px 0 0 48px;
+   color: black;
+   font-family: Okra, Helvetica, sans-serif; 
+}
+
+.grouptools{
+    position: absolute;
+    margin: 40px 0 0 0; 
+} 
+.groupimgtools{
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    margin:190px 0 0 8px ;
+  
+}
+.grouptxt{
+   position: relative;
+   margin: 197px 0 0 50px;
+   color: black;
+   font-family: Okra, Helvetica, sans-serif; 
+}
+
+.videostools{
+    position: absolute;
+    margin: 40px 0 0 0; 
+} 
+.videosimgtools{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin:240px 0 0 9px ;
+  
+}
+.videostxt{
+   position: relative;
+   margin: 250px 0 0 50px;
+   color: black;
+   font-family: Okra, Helvetica, sans-serif; 
+}
+
+
+.marketplacetools{
+    position: absolute;
+    margin: 40px 0 0 0; 
+} 
+.marketplaceimgtools{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin:295px 0 0 9px ;
+  
+}
+.marketplacetxt{
+   position: relative;
+   margin: 303px 0 0 50px;
+   color: black;
+   font-family: Okra, Helvetica, sans-serif; 
+}
+
+.marketplacetxtlink{
+    text-decoration: none;
+}
+
+
+.feestools{
+    position: absolute;
+    margin: 40px 0 0 0; 
+} 
+.feedimgtools{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin:385px 0 0 9px ;
+  
+}
+.feedstxt{
+   position: absolute;
+   margin: 390px 0 0 50px;
+   color: black;
+   font-family: Okra, Helvetica, sans-serif; 
+}
+
+.feedtxtlink{
+    text-decoration: none;
+}
+
+
+.eventtools{
+    position: absolute;
+    margin: 40px 0 0 0; 
+} 
+.eventimgtools{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin:395px 0 0 9px ;
+  
+}
+.eventtxt{
+   position: absolute;
+   margin: 400px 0 0 50px;
+   color: black;
+   font-family: Okra, Helvetica, sans-serif; 
+}
+
+.eventtxtlink{
+    text-decoration: none;
+}
+
+
+----------------
+.adstools{
+    position: absolute;
+    margin: 40px 0 0 0; 
+} 
+.adsimgtools{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin:485px 0 0 9px ;
+  
+}
+.adstxt{
+   position: absolute;
+   margin: 490px 0 0 50px;
+   color: black;
+   font-family: Okra, Helvetica, sans-serif; 
+}
+
+.adstxtlink{
+    text-decoration: none;
+}
+
+------------------
+
+.fundtools{
+    position: absolute;
+    margin: 40px 0 0 0; 
+} 
+.fundimgtools{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin:535px 0 0 9px ;
+  
+}
+.fundtxt{
+   position: absolute;
+   margin: 540px 0 0 50px;
+   color: black;
+   font-family: Okra, Helvetica, sans-serif; 
+}
+
+.fundtxtlink{
+    text-decoration: none;
+}
+
+
+------------------------
+
+
+.seemoretools{
+    position: absolute;
+    margin: 40px 0 0 0; 
+} 
+.seemoreimgtools{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin:585px 0 0 9px ;
+  
+}
+.seemoretxt{
+   position: absolute;
+   margin: 592px 0 0 50px;
+   color: black;
+   font-family: Okra, Helvetica, sans-serif; 
+}
+
+.seemoretxtlink{
+    text-decoration: none;
+}
+.story{
+    background-color: yellow;
+    margin: 30px 0 0 0;
+    
+}
+.storyimg1{
+    object-fit: cover;
+    position: absolute;
+    width:140px ;
+    height: 250px;
+    margin: 0 0 0 100px;
+    border-radius: 10px;
+}
+
+.storyimg2{
+    object-fit: cover;
+    position: absolute;
+    width:140px ;
+    height: 250px;
+    margin: 0 0 0 250px;
+    border-radius: 10px;
+}
+
+.storyimg3{
+    object-fit: cover;
+    position: absolute;
+    width:140px ;
+    height: 250px;
+    margin: 0 0 0 400px;
+    border-radius: 10px;
+}
+
+.storyimg4{
+    object-fit: cover;
+    position: absolute;
+    width:140px ;
+    height: 250px;
+    margin: 0 0 0 550px;
+    border-radius: 10px;
+}
+
+.textbox{
+    position: absolute;
+    background-color: white;
+    border-radius: 10px;
+    margin: 280px 0 0 100px;
+    width: 590px;
+    height: 122.80px;
+   
+}
+
+.profileimgfeed{
+    position: absolute;
+    height:40px;
+    width:40px ;
+    margin:10px 0 0 15px;
+}
+
+.searchtextbox{
+    position: absolute;
+    margin: 12px 0 0 65px;
+    padding:10px 10px  10px 10px;
+    width:485px;
+    border-radius:20px ;
+    background-color: rgba(128, 128, 128, 0.146);
+    border: none;
+}
+
+.livevideoimg{
+    position: absolute;
+    height: 30px;
+    width: 33px;
+    margin: 70px 0px  0 60px;
+}
+
+.textboxlivevideo{
+    text-decoration: none;
+}
+
+ .textboxlivevideotxt{
+    position: absolute;
+    text-decoration: none;
+     margin:75px 0 0 100px ;
+     color: rgba(0, 0, 0, 0.589);
+     
+}
+
+.textboxphotosvideo{
+    position: absolute;
+    height: 30px;
+    width: 33px;
+   
+}
+
+.photosvideosimg{
+    position: absolute;
+    text-decoration: none;
+    height:25px;
+    width: 25px;
+    margin: 70px 0px  0 230px;
+ 
+}
+
+ .textboxphotosvideotxt{
+    position: absolute;
+    text-decoration: none;
+     color: rgba(0, 0, 0, 0.589);
+     margin:72px 0 0 260px ;
+} 
+
+.textboxfeeling{
+    position: absolute;
+    height: 30px;
+    width: 33px;
+   
+}
+
+.feelingimg{
+    position: absolute;
+    text-decoration: none;
+    height:25px;
+    width: 25px;
+    margin: 70px 0px  0 400px;
+ 
+}
+
+ .textboxfeelingactivitytxt{
+    position: absolute;
+    text-decoration: none;
+     color: rgba(0, 0, 0, 0.589);
+     margin:72px 0 0 430px ;
+} 
+
+.post1card{
+    position:absolute;
+    width: 590px;
+    height:750px;
+    background-color: white;
+    margin: 420px 0 0 100px;
+    border-radius: 10px;
+}
+
+
+.postprofileimg1{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin: 15px 0  0 15px;
+    border-radius: 100px;
+
+}
+
+.postusername1{
+    position: absolute;
+    margin: 20px 0 0 70px;
+    color: black;
+}
+
+.post1{
+    margin:80px 0 0 0;
+    position: absolute;
+    width: 590px;
+    height:600px;
+}
+-----------------------
+
+.like{
+    text-decoration: none;
+}
+
+.likeicon{
+    position: absolute;
+    height: 25px;
+    width: 23px;
+    margin:120% 0 0 20px;
+}
+
+
+ .liketxt{
+    position: absolute;
+    text-decoration: none;
+     margin:120.5% 0 0 50px ;
+     color: rgba(0, 0, 0, 0.589);
+     
+}
+
+.comment{
+    position: absolute;
+    height: 30px;
+    width: 33px;
+   
+}
+
+.commenticon{
+    position: absolute;
+    text-decoration: none;
+    height:25px;
+    width: 25px;
+    margin:710px 0  0 230px;
+ 
+}
+
+ .commenttxt{
+    position: absolute;
+    text-decoration: none;
+     color: rgba(0, 0, 0, 0.589);
+     margin:715px 0 0 260px ;
+} 
+
+.share{
+    position: absolute;
+    height: 30px;
+    width: 33px;
+   
+}
+
+.shareicon{
+    position: absolute;
+    text-decoration: none;
+    height:21px;
+    width: 21px;
+    margin: 715px 0px  0 460px;
+ 
+}
+
+ .sharetxt{
+    position: absolute;
+    text-decoration: none;
+     color: rgba(0, 0, 0, 0.589);
+     margin:715px 0 0 490px ;
+} 
+
+----------------------------
+
+.post2card{
+    position:absolute;
+    width: 590px;
+    height:750px;
+    background-color: white;
+    margin: 200% 0 0 0px;
+    border-radius: 10px;
+}
+
+
+.postprofileimg2{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin: 500px 0  0 15px;
+    border-radius: 100px;
+
+}
+
+.postusername2{
+    position: absolute;
+    margin: 20px 0 0 70px;
+    color: black;
+}
+
+.post2{
+    margin:80px 0 0 0;
+    position: absolute;
+    width: 590px;
+    height:600px;
+}
+/*
+.post3card{
+    position:absolute;
+    width: 590px;
+    height:750px;
+    background-color: white;
+    margin: 130% 0 0 100px;
+    border-radius: 10px;
+}
+
+
+.postprofileimg3{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin: 15px 0  0 15px;
+    border-radius: 100px;
+
+}
+
+.postusername3{
+    position: absolute;
+    margin: 20px 0 0 70px;
+    color: black;
+}
+
+.post3{
+    margin:80px 0 0 0;
+    position: absolute;
+    width: 590px;
+    height:600px;
+} */
+
+.messenger{
+    width: 360px;
+    height: 1000px;
+    background-color: whitesmoke;  
+    margin: 0px 0 0 100%;
+    position:static;
+    border-left: 1px solid black;
+}
+
+
+.Sponser{
+    color: rgba(128, 128, 128, 0.783);
+    font-size: 25px;
+    margin:10px 0 0 0px ;
+    padding: 10px;
+}
+.ad{
+    height: 200px;
+    width: 300px;
+    margin: 7px 0 0 9px;
+    border-radius: 10px;
+}
+
+.contact{
+   
+    margin: 10px 0 40 0px;
+    font-size: 20px;
+    color: rgba(128, 128, 128, 0.849);
+    border-top: 1px solid rgba(128, 128, 128, 0.783);
+    padding: 10px;
+}
+
+.chatimg1{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin: 0px 0 0px 10px;
+}
+
+ .username1{
+    position: absolute;
+    margin: 10px 0 0 60px;
+    font-size: 20px;
+    letter-spacing: 1px;
+} 
+
+.chatimg2{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin: 50px 0 0 10px;
+}
+
+ .username2{
+    position: absolute;
+   margin: 55px 0 0 60px;
+    font-size: 20px;
+    letter-spacing: 1px;
+} 
+
+.chatimg3{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin: 100px 0 0 10px;
+}
+
+ .username3{
+    position: absolute;
+   margin: 105px 0 0 60px;
+    font-size: 20px;
+    letter-spacing: 1px;
+} 
+
+.chatimg4{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin: 150px 0 0 10px;
+}
+
+ .username4{
+    position: absolute;
+   margin: 155px 0 0 60px;
+    font-size: 20px;
+    letter-spacing: 1px;
+} 
+
+
+.chatimg5{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin: 200px 0 0 10px;
+}
+
+ .username5{
+    position: absolute;
+   margin: 205px 0 0 60px;
+    font-size: 20px;
+    letter-spacing: 1px;
+} 
+
+
+.chatimg6{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin: 250px 0 0 10px;
+}
+
+ .username6{
+    position: absolute;
+   margin: 255px 0 0 60px;
+    font-size: 20px;
+    letter-spacing: 1px;
+} 
+
+ 
+.chatimg7{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin: 300px 0 0 10px;
+}
+
+ .username7{
+    /* position: absolute; */
+   margin: 305px 0 0 60px;
+    font-size: 20px;
+    letter-spacing: 1px;
+} 
+
+/*
+.chatimg8{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin: 350px 0 0 10px;
+}
+
+ .username8{
+    position: absolute;
+   margin: 405px 0 0 60px;
+    font-size: 20px;
+    letter-spacing: 1px;
+} 
+
+
+.chatimg9{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin: 400px 0 0 10px;
+}
+
+ .username9{
+    position: absolute;
+   margin: 455px 0 0 60px;
+    font-size: 20px;
+    letter-spacing: 1px;
+} 
+
+
+.chatimg10{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin: 500px 0 0 10px;
+}
+
+ .username10{
+    position: absolute;
+   margin: 555px 0 0 60px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}  */

@@ -1,101 +1,91 @@
-
 *{
-  background-color:whitesmoke;
+   box-sizing: border-box;
+}
+
+.loginpage{
+   display:flex;
+   background-color:whitesmoke;
+   height:900px;
+}
+
+
+.loginfacebooktxt{
+   color:#0866ff;
+   font-size:100px;
+   font-family: "Ubuntu", sans-serif;
+   margin:170px 0 0 300px;
+}
+
+.loginpara{
+   color: rgba(0, 0, 0, 0.747);
+   font-family: "Ubuntu", sans-serif;
+   margin:0 0 0 300px;
+}
+
+.loginform{
+   background-color: white;
+   /* border:1px solid black; */
+   margin:150px 0 0 200px;
+   height:40%;
+   width:66%;
+}
+
+.loginemail{
+   margin:15px 8px 7px 18px;
+   width:330px;
+   padding:14px;
+   border-radius:8px;
   
 }
-
-.position {
-   top: 35%;
-   width: 50%;
-   
+.loginemail:hover{
+   border: blue;
 }
 
-.facebooktxt{
-   color: rgb(70, 70, 216);
-   
-   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
-   margin: 18px;
-   
-}
-
-.form{
-   
-
-   
-   border-radius:4px;
-
-   width: 45%;
-   height:330px;
-   background-color:white;
+.loginpassword{
+   margin:5px 8px 7px 18px;
+   width:330px;
+   padding:14px;
+   border-radius:8px;
   
-   
 }
-
-.Email{
-   margin-top:30px;
-   margin-bottom:20px;
-   margin-left:15px;
-   size-adjust:100px;
-   border-radius:4px;
+.loginpassword:hover{
    border:1px solid blue;
-    padding:10px;
-    width:250px;
-
 }
 
-.password{  
-   margin: 0 15px 20px 0;
-   size-adjust:100px;
-    padding:10px;
-    width:250px;
-    
-    border-radius:4px;
+.login{
+   background-color: #0866ff;
+   color:white;
+   font-family: "Ubuntu", sans-serif ;
+   font-weight: bold;
+   font-size:20px;
+   margin:10px 8px 7px 18px;
+   width:330px;
+   padding:10px; 
+   border-radius:8px;
+  
 }
 
-.login{  
-   margin-bottom:20px;
-   margin-left:100px;
-   margin-left:15px;
-   size-adjust:100px;
-    padding:10px;
-    width:274px;
-    background-color:rgb(54, 54, 225);
-    color:white;
-    font-size:15px;
-    font-weight: bold;
-    border:1px solid;
-    border-radius:4px;
+.fpbtn{
+  /* margin:8px 0px 0 115px; */
+  padding:2.7% 0 6% 31%;
+  border-bottom:1px solid gray;
+  width:100%;
+  font-family: "Ubuntu", sans-serif ;
+  font-weight:500;
+  color: #0866ff;
+  
 }
 
-.fpbutton
-{  
-   margin-bottom:20px;
-   margin-left:60px;
-   margin-left:15px;
-   size-adjust:100px;
-    padding:10px;
-    width:250px;
-    color: rgb(74, 74, 236);
-    background-color: white;
-    font-weight:500;
-    border:1px solid white;
-    border-radius:4px;
-
-}
-
-
-.cabutton{
-      margin-bottom:20px;
-      margin-left:60px;
-     
-      size-adjust:100px;
-       padding:10px;
-       width:180px;
-       color:white;
-       background-color: rgb(47, 182, 47);
-       font-weight: bold;
-       border:1px solid;
-       border-radius:4px;
+.createaccount{
+   background-color:rgb(24, 227, 24);
+   /* border:1px solid black; */
+   border-radius:8px;
+   margin:8px 0px 0 80px;
+   width:60%;
+   padding:15px 0 15px 40px;
    
-   }
+}
+
+.createpage{
+   margin:10px 0 0 250px;
+}

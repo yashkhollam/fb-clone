@@ -1,11 +1,20 @@
 *{
     box-sizing: border-box;
-    background-color: white;
+   
+}
+.createaccount{
+    background-color: whitesmoke;
+     height:1000px;
+     margin:auto;
 }
 
 .form{
-    border:1px solid;
+    background-color:white;
+    border:1px solid white;
+    border-radius:3%;
     width:400px;
+    height: 570px;
+    
 }
 
 .Signup{
@@ -13,6 +22,7 @@
     font-size:40px;
     font-weight: bold;
     font-family:Arial, Helvetica, sans-serif;
+    color: black;
    
 
 }
@@ -26,5 +36,106 @@
 }
 
 .email{
-   margin-bottom:30px;
+  margin:0 20% 3% 5%;
+  padding:2% 2% 2% 3%;
+  width:90%;
+  border-radius:3px;
+  border-color: rgba(128, 128, 128, 0.564);
+  border-width: 1px;
+}
+.newpassword{
+  
+        margin:0 20% 3% 5%;
+        padding:2% 2% 2% 3%;
+        width:90%;
+        border-radius:3px;
+        border-color: rgba(128, 128, 128, 0.564);
+        border-width: 1px;
+      
+}
+
+.date{
+    margin:0 20% 3% 5%;
+    padding:2% 2% 2% 3%;
+    width:90%;
+    border-radius:3px;
+    border-color: rgba(128, 128, 128, 0.564);
+    border-width: 1px;
+  
+}
+
+.Firstname{
+     margin:0 2% 0% 5%;
+    padding:2% 2% 2% 3%;
+    width:40%;
+    border-radius:3px;
+    border-color: rgba(128, 128, 128, 0.564);
+    border-width: 1px; 
+}
+
+.surname{
+    margin:0 5% 5% 3.5%;
+    padding:2% 2% 2% 3%;
+    width:40%;
+    border-radius:3px;
+    border-color: rgba(128, 128, 128, 0.564);
+    border-width: 1px; 
+}
+
+ .gender{
+    
+    
+}
+
+.Female{
+    border:1px solid black;
+    color:rgba(0, 0, 0, 0.564);
+     margin:60px 5% 0 3.5%; 
+    padding:2% 2% 2% 3%;
+    width:40%;
+    border-radius:3px;
+    border-color: rgba(128, 128, 128, 0.564);
+    border-width: 1px; 
+    
+}
+
+.Male{
+    color:rgba(0, 0, 0, 0.564);
+    border:1px solid black;
+    margin:0 5% 0 3.5%;
+    padding:2% 2% 2% 3%;
+    width:40%;
+    border-radius:3px;
+    border-color: rgba(128, 128, 128, 0.564);
+    border-width: 1px; 
+    
+}
+
+.Custom{
+    color:rgba(0, 0, 0, 0.564);
+    border:1px solid black;
+    margin:0 5% 0 3.5%;
+    padding:2% 2% 2% 3%;
+    width:40%;
+    border-radius:3px;
+    border-color: rgba(128, 128, 128, 0.564);
+    border-width: 1px; 
+    
+}
+
+.para{
+    margin: 5% 2%  2% 3.5%;
+    color:  rgb(128, 128, 128);
+}
+
+.SignUp{
+    border:1px solid black;
+    margin:0 5% 5% 20%;
+    padding:2% 2% 2% 3%;
+    width:58%;
+    border-radius:3px;
+    border-color: rgba(128, 128, 128, 0.564);
+    border-width: 1px; 
+    background-color:rgb(47, 212, 47);  
+
 }
