@@ -1,5 +1,5 @@
 *{
-    /* background-color: whitesmoke; */
+     background-color: whitesmoke; 
 }
 
 .navbar{
@@ -58,7 +58,7 @@
 
 .gridicon{
     position: absolute;
-    margin: 15px 0 0 88%;
+    margin: 15px 0 0 87%;
 }
 .messengericon{
     position: absolute;
@@ -96,20 +96,11 @@
    
     width: 360px;
     height: 670px;
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
     margin: 57px 0 0 0;
     position:fixed;
 }
 
-.feed{
-    width: 800px;
-    height:3000px;
-    /* background-color: red;   */
-    position: relative;
-    margin: 57px 0 0 360px;
-    background-color: whitesmoke;
-
-}
 
 .usernametools{
     position: absolute;
@@ -123,10 +114,13 @@
   
 }
 .usernametxt{
-   position: relative;
+   /* position:absolute; */
    margin: 15px 0 0 55px;
    color: black;
    font-family: Okra, Helvetica, sans-serif;
+}
+.usernametxtlink{
+    text-decoration: none;
 }
 
 .friendtools{
@@ -141,7 +135,7 @@
   
 }
 .friendtxt{
-   position: relative;
+   position:absolute;
    margin: 50px 0 0 50px;
    color: black;
    font-family: Okra, Helvetica, sans-serif; 
@@ -159,7 +153,7 @@
   
 }
 .memoriestxt{
-   position: relative;
+   position:absolute;
    margin: 99px 0 0 50px;
    color: black;
    font-family: Okra, Helvetica, sans-serif; 
@@ -177,7 +171,7 @@
   
 }
 .savedtxt{
-   position: relative;
+   position:absolute;
    margin: 145px 0 0 48px;
    color: black;
    font-family: Okra, Helvetica, sans-serif; 
@@ -195,7 +189,7 @@
   
 }
 .grouptxt{
-   position: relative;
+   position:absolute;
    margin: 197px 0 0 50px;
    color: black;
    font-family: Okra, Helvetica, sans-serif; 
@@ -213,7 +207,7 @@
   
 }
 .videostxt{
-   position: relative;
+   position:absolute;
    margin: 250px 0 0 50px;
    color: black;
    font-family: Okra, Helvetica, sans-serif; 
@@ -232,7 +226,7 @@
   
 }
 .marketplacetxt{
-   position: relative;
+   position:absolute;
    margin: 303px 0 0 50px;
    color: black;
    font-family: Okra, Helvetica, sans-serif; 
@@ -361,6 +355,17 @@
 .seemoretxtlink{
     text-decoration: none;
 }
+
+
+.feed{
+    width: 800px;
+    height:3000px;
+      
+    margin:57px 0 0 360px;
+    /* background-color: whitesmoke; */
+
+}
+
 .story{
     background-color: yellow;
     margin: 30px 0 0 0;
@@ -410,7 +415,7 @@
     width: 590px;
     height: 122.80px;
    
-}
+} 
 
 .profileimgfeed{
     position: absolute;
@@ -434,10 +439,12 @@
     height: 30px;
     width: 33px;
     margin: 70px 0px  0 60px;
+    background-color: white;
 }
 
 .textboxlivevideo{
     text-decoration: none;
+  
 }
 
  .textboxlivevideotxt{
@@ -445,11 +452,12 @@
     text-decoration: none;
      margin:75px 0 0 100px ;
      color: rgba(0, 0, 0, 0.589);
+     background-color: white;
      
 }
 
 .textboxphotosvideo{
-    position: absolute;
+   
     height: 30px;
     width: 33px;
    
@@ -461,6 +469,7 @@
     height:25px;
     width: 25px;
     margin: 70px 0px  0 230px;
+    background-color: white;
  
 }
 
@@ -469,10 +478,11 @@
     text-decoration: none;
      color: rgba(0, 0, 0, 0.589);
      margin:72px 0 0 260px ;
+     background-color: white;
 } 
 
 .textboxfeeling{
-    position: absolute;
+    
     height: 30px;
     width: 33px;
    
@@ -484,6 +494,7 @@
     height:25px;
     width: 25px;
     margin: 70px 0px  0 400px;
+    background-color: white;
  
 }
 
@@ -492,6 +503,7 @@
     text-decoration: none;
      color: rgba(0, 0, 0, 0.589);
      margin:72px 0 0 430px ;
+     background-color: white;
 } 
 
 .post1card{
@@ -513,11 +525,12 @@
 
 }
 
-.postusername1{
-    position: absolute;
-    margin: 20px 0 0 70px;
+ .postusername1{
+     position: absolute; 
+    margin: 25px 0 0 70px;
     color: black;
-}
+    background-color: white;
+} 
 
 .post1{
     margin:80px 0 0 0;
@@ -525,82 +538,86 @@
     width: 590px;
     height:600px;
 }
------------------------
 
-.like{
+
+.likep1{
     text-decoration: none;
 }
 
-.likeicon{
+.likeiconp1{
     position: absolute;
     height: 25px;
     width: 23px;
     margin:120% 0 0 20px;
+    background-color: white;
 }
 
 
- .liketxt{
+ .liketxtp1{
     position: absolute;
     text-decoration: none;
      margin:120.5% 0 0 50px ;
      color: rgba(0, 0, 0, 0.589);
-     
+    background-color: white; 
 }
 
-.comment{
-    position: absolute;
+.commentp1{
+    /* position: absolute; */
     height: 30px;
     width: 33px;
    
 }
 
-.commenticon{
+.commenticonp1{
     position: absolute;
     text-decoration: none;
     height:25px;
     width: 25px;
     margin:710px 0  0 230px;
- 
+    background-color: white;
 }
 
- .commenttxt{
+ .commenttxtp1{
     position: absolute;
     text-decoration: none;
      color: rgba(0, 0, 0, 0.589);
      margin:715px 0 0 260px ;
+     background-color: white;
 } 
 
-.share{
-    position: absolute;
+.sharep1{
+    /* position: absolute; */
     height: 30px;
     width: 33px;
    
 }
 
-.shareicon{
+.shareiconp1{
     position: absolute;
     text-decoration: none;
     height:21px;
     width: 21px;
     margin: 715px 0px  0 460px;
+    background-color: white;
  
 }
 
- .sharetxt{
+ .sharetxtp1{
     position: absolute;
     text-decoration: none;
      color: rgba(0, 0, 0, 0.589);
      margin:715px 0 0 490px ;
+     background-color: white;
 } 
 
-----------------------------
+/* ----------p2------------------ */
 
 .post2card{
     position:absolute;
     width: 590px;
     height:750px;
     background-color: white;
-    margin: 200% 0 0 0px;
+    margin: 78% 0 0 100px;
     border-radius: 10px;
 }
 
@@ -609,16 +626,17 @@
     position: absolute;
     width: 40px;
     height: 40px;
-    margin: 500px 0  0 15px;
+    margin: 15px 0  0 15px;
     border-radius: 100px;
 
 }
 
-.postusername2{
-    position: absolute;
-    margin: 20px 0 0 70px;
+ .postusername2{
+     position: absolute; 
+    margin: 25px 0 0 70px;
     color: black;
-}
+    background-color: white;
+} 
 
 .post2{
     margin:80px 0 0 0;
@@ -626,13 +644,86 @@
     width: 590px;
     height:600px;
 }
-/*
+
+
+.likep2{
+    text-decoration: none;
+}
+
+.likeiconp2{
+    position: absolute;
+    height: 25px;
+    width: 23px;
+    margin:120% 0 0 20px;
+    background-color: white;
+}
+
+
+ .liketxtp2{
+    position: absolute;
+    text-decoration: none;
+     margin:120.5% 0 0 50px ;
+     color: rgba(0, 0, 0, 0.589);
+    background-color: white; 
+}
+
+.commentp2{
+    /* position: absolute; */
+    height: 30px;
+    width: 33px;
+   
+}
+
+.commenticonp2{
+    position: absolute;
+    text-decoration: none;
+    height:25px;
+    width: 25px;
+    margin:710px 0  0 230px;
+    background-color: white;
+}
+
+ .commenttxtp2{
+    position: absolute;
+    text-decoration: none;
+     color: rgba(0, 0, 0, 0.589);
+     margin:715px 0 0 260px ;
+     background-color: white;
+} 
+
+.sharep2{
+    /* position: absolute; */
+    height: 30px;
+    width: 33px;
+   
+}
+
+.shareiconp2{
+    position: absolute;
+    text-decoration: none;
+    height:21px;
+    width: 21px;
+    margin: 715px 0px  0 460px;
+    background-color: white;
+ 
+}
+
+ .sharetxtp2{
+    position: absolute;
+    text-decoration: none;
+     color: rgba(0, 0, 0, 0.589);
+     margin:715px 0 0 490px ;
+     background-color: white;
+} 
+/*------p3------ */
+
+
 .post3card{
     position:absolute;
     width: 590px;
     height:750px;
     background-color: white;
-    margin: 130% 0 0 100px;
+    margin: 128% 0 0 100px;
     border-radius: 10px;
 }
 
@@ -646,26 +737,99 @@
 
 }
 
-.postusername3{
-    position: absolute;
-    margin: 20px 0 0 70px;
+ .postusername3{
+     position: absolute; 
+    margin: 25px 0 0 70px;
     color: black;
-}
+    background-color: white;
+} 
 
 .post3{
     margin:80px 0 0 0;
     position: absolute;
     width: 590px;
     height:600px;
-} */
+}
 
+
+.likep3{
+    text-decoration: none;
+}
+
+.likeiconp3{
+    position: absolute;
+    height: 25px;
+    width: 23px;
+    margin:120% 0 0 20px;
+    background-color: white;
+}
+
+
+ .liketxtp3{
+    position: absolute;
+    text-decoration: none;
+     margin:120.5% 0 0 50px ;
+     color: rgba(0, 0, 0, 0.589);
+    background-color: white; 
+}
+
+.commentp3{
+    /* position: absolute; */
+    height: 30px;
+    width: 33px;
+   
+}
+
+.commenticonp3{
+    position: absolute;
+    text-decoration: none;
+    height:25px;
+    width: 25px;
+    margin:710px 0  0 230px;
+    background-color: white;
+}
+
+ .commenttxtp3{
+    position: absolute;
+    text-decoration: none;
+     color: rgba(0, 0, 0, 0.589);
+     margin:715px 0 0 260px ;
+     background-color: white;
+} 
+
+.sharep3{
+    /* position: absolute; */
+    height: 30px;
+    width: 33px;
+   
+}
+
+.shareiconp3{
+    position: absolute;
+    text-decoration: none;
+    height:21px;
+    width: 21px;
+    margin: 715px 0px  0 460px;
+    background-color: white;
+ 
+}
+
+ .sharetxtp3{
+    position: absolute;
+    text-decoration: none;
+     color: rgba(0, 0, 0, 0.589);
+     margin:715px 0 0 490px ;
+     background-color: white;
+} 
+
+/* Messenger section */
 .messenger{
     width: 360px;
     height: 1000px;
-    background-color: whitesmoke;  
-    margin: 0px 0 0 100%;
-    position:static;
-    border-left: 1px solid black;
+    /* background-color: whitesmoke;   */
+    margin: 40px 0 0 0;
+    /* position:static; */
+    /* border-left: 1px solid black; */
 }
 
 
@@ -777,7 +941,6 @@
     letter-spacing: 1px;
 } 
 
- 
 .chatimg7{
     position: absolute;
     width: 40px;
@@ -786,13 +949,13 @@
 }
 
  .username7{
-    /* position: absolute; */
+    position: absolute;
    margin: 305px 0 0 60px;
     font-size: 20px;
     letter-spacing: 1px;
 } 
+ 
 
-/*
 .chatimg8{
     position: absolute;
     width: 40px;
@@ -802,7 +965,7 @@
 
  .username8{
     position: absolute;
-   margin: 405px 0 0 60px;
+   margin: 355px 0 0 60px;
     font-size: 20px;
     letter-spacing: 1px;
 } 
@@ -817,7 +980,7 @@
 
  .username9{
     position: absolute;
-   margin: 455px 0 0 60px;
+   margin: 405px 0 0 60px;
     font-size: 20px;
     letter-spacing: 1px;
 } 
@@ -827,12 +990,12 @@
     position: absolute;
     width: 40px;
     height: 40px;
-    margin: 500px 0 0 10px;
+    margin: 455px 0 0 10px;
 }
 
  .username10{
     position: absolute;
-   margin: 555px 0 0 60px;
+   margin:455px 0 0 60px;
     font-size: 20px;
     letter-spacing: 1px;
-}  */
+}  
